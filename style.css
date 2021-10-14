@@ -52,7 +52,7 @@
 }
 
 #right_body{
-    border-color: purple;
+    border-color: black;
     flex: 1;
     height: 150px;
 }
@@ -87,4 +87,11 @@
     margin: 20px 0px 0px 10px;
     box-shadow: 3px 3px black;
     background-color:gold;
+}
+#definition{
+    background-color: darkolivegreen;
+    width: 200px;
+    height: 35px;
+    margin-left: 25px;
+    font-weight: bold;
 }
