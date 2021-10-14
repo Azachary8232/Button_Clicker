@@ -11,28 +11,43 @@
 
 #container{
     border-color: black;
+    margin: auto;
+    width: 900px;
+    height: 1600px;
 }
 
 #header{
     border-color: red;
+    height: 75px;
 }
 
 #main_body{
     border-color: yellow;
+    height: 500px;
+    display: flex;
+    margin-top: 25px;
 }
 
 #left_body{
     border-color: green;
+    flex: 2;
+    height: 500;
+    margin-right: 25px;
 }
 
 #block1{
     border-color: blue;
+    height: 200px;
+    margin-bottom: 25px;
 }
 
 #block2{
     border-color: orangered;
+    height: 200px;
 }
 
 #right_body{
     border-color: purple;
+    flex: 1;
+    height: 150px;
 }
