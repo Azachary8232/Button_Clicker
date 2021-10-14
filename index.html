@@ -12,7 +12,7 @@
         <div class="design_box" id="header">
         <h1 style="margin: 7px 0px 4px 25px; font-size: 3em;">Dojonary</h1>
         <input type="search" placeholder="   Search..." id="search">
-        <button id="login">Login</button>
+        <button id="login" onclick="logout(this)">Login</button>
         </div>
         <div class="design_box" id="main_body">
             <div class="design_box" id="left_body">
@@ -21,7 +21,7 @@
                         <h1 style="margin: 10px;">ninja</h1>
                         <h3 style="margin: 10px;">noun</h3>
                         <h3 style="margin: 10px;">Plural: ninjas</h3>
-                        <button class="button">13 likes</button>
+                        <button class="button" onclick="alert('Ninja was liked')">13 likes</button>
                     </div>
                     <div class="flex2" style="margin: auto;margin-left: 20px;">
                         <h2>A practitioner skilled in the<br>
@@ -45,7 +45,7 @@
             <div class="design_box" id="right_body">
             <h2 style="margin: 25px 0px 0px 25px;">Dojonary is<br>
             defined by <span style="font-weight: bold;">YOU</span></h2>
-            <button class="button" id="definition">Add Definition</button>
+            <button class="button" id="definition" onclick="definition(this)">Add Definition</button>
             </div>
         </div>
     </div>
