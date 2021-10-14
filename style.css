@@ -10,7 +10,7 @@
 }
 
 #container{
-    border-color: black;
+    border: none;
     margin: auto;
     width: 800px;
     height: 1600px;
@@ -46,8 +46,9 @@
 }
 
 #block2{
-    border-color: orangered;
+    border-color: black;
     height: 200px;
+    display: flex;
 }
 
 #right_body{
